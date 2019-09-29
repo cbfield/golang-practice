@@ -4,21 +4,11 @@ import (
 	"fmt"
 )
 
-var (
-	actor string = "Elijah Wood"
-	location string = "New York"
-	isGood bool = true
-)
 func main(){
 
-	// var num1 int
-	// num1 = 1
+	var x int = 15
 
-	// var num2 int = 2
-	
-	// num3 := 3
-
-	fmt.Printf("%v, %T\n", actor,actor)
-	fmt.Printf("%v, %T\n", location,location)
-	fmt.Printf("%v, %T\n", isGood,isGood)
+	var y float32 = float32(x)
+	fmt.Printf("%v, %T\n",x,x)
+	fmt.Printf("%v, %T\n",y,y)
 }
