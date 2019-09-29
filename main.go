@@ -4,16 +4,21 @@ import (
 	"fmt"
 )
 
+var (
+	actor string = "Elijah Wood"
+	location string = "New York"
+	isGood bool = true
+)
 func main(){
 
-	var num1 int
-	num1 = 1
+	// var num1 int
+	// num1 = 1
 
-	var num2 int = 2
+	// var num2 int = 2
 	
-	num3 := 3
+	// num3 := 3
 
-	fmt.Printf("%v, %T\n", num1,num1)
-	fmt.Printf("%v, %T\n", num2,num2)
-	fmt.Printf("%v, %T\n", num3,num3)
+	fmt.Printf("%v, %T\n", actor,actor)
+	fmt.Printf("%v, %T\n", location,location)
+	fmt.Printf("%v, %T\n", isGood,isGood)
 }
